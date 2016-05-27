@@ -4,10 +4,12 @@ This template is a starting point for using Vaain Charts. It creates a Web appli
 
 ### Prerequisites
 
-    By default, to install node_modules globally you need to have superuser permissions.
-    You can change the owner of npm's directories to the name of the current user, using this script:
+By default, to install node_modules globally you need to have superuser
+permissions. You can change the owner of npms directories to the name
+of the current user, using this script:
 
     sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
 ##### Install Git.
 
 ##### Install the current LTS version (4.x) of Node.js or newer.

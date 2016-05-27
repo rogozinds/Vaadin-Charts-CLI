@@ -1,6 +1,6 @@
 {
   "name": "generator-polymer-init-vaadin-charts-app",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This template is a starting point for using Vaain Charts. It creates a Web application with a simple column chart.",
   "homepage": "",
   "author": {
