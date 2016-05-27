@@ -3,7 +3,13 @@
 This template is a starting point for using Vaain Charts. It creates a Web application with a simple column chart.
 
 ### Prerequisites
+
+    By default, to install node_modules globally you need to have superuser permissions.
+    You can change the owner of npm's directories to the name of the current user, using this script:
+
+    sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 ##### Install Git.
+
 ##### Install the current LTS version (4.x) of Node.js or newer.
 
 ##### Install the latest version of Bower.
@@ -17,7 +23,7 @@ This template is a starting point for using Vaain Charts. It creates a Web appli
 ### Setup
 
 ##### Install generator
-    sudo npm install -g generator-polymer-init-vaadin-charts-app
+    npm install -g generator-polymer-init-vaadin-charts-app
 
 ##### Initialize project from template
 
