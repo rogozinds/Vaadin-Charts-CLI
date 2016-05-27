@@ -25,7 +25,7 @@ Install generator
     mkdir my-app
     cd my-app
 
-    polymer init app-drawer-template
+    polymer init vaadin-charts-app
 
 ### Start the Web server
     polymer serve
