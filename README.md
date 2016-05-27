@@ -1,8 +1,6 @@
-# Vaadin Charts Template
+# Vaadin Charts App Generator
 
 This template is a starting point for using Vaain Charts. It creates a Web application with a simple column chart.
-
-This template, is used used with `polymer-cli`.
 
 ### Setup
 
