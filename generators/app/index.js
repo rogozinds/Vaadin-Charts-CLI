@@ -1,4 +1,4 @@
-//'use strict';
+
 var generators = require('yeoman-generator');
 module.exports = generators.Base.extend({
 
@@ -19,32 +19,10 @@ module.exports = generators.Base.extend({
         this.templatePath('index.html'),
         this.destinationPath('index.html')
     );
+
     this.fs.copyTpl(
-        this.templatePath('bar-chart.html'),
-        this.destinationPath('bar-chart.html')
+        this.templatePath('earnings-chart.html'),
+        this.destinationPath('earnings-chart.html')
     );
-    this.fs.copyTpl(
-        this.templatePath('simple-line-chart.html'),
-        this.destinationPath('simple-line-chart.html')
-    );
-  },
-
-  //bower: function () {
-  //  var bowerJson = {
-  //    name: this.appname,
-  //    private: true,
-  //    dependencies: {}
-  //  };
-  //
-  //  bowerJson.dependencies['vaadin-charts'] = '';
-  //
-  //  this.fs.writeJSON('bower.json', bowerJson);
-  //  this.fs.copy(
-  //      this.templatePath('bowerrc'),
-  //      this.destinationPath('.bowerrc')
-  //  );
-  //},
-
-
-
+  }
 });
