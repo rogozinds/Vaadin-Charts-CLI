@@ -17,6 +17,9 @@ Install [polymer-cli](https://github.com/Polymer/polymer-cli):
 
     npm install -g polymer-cli
 
+Install generator
+    sudo npm install -g generator-polymer-init-vaadin-charts-app
+
 ##### Initialize project from template
 
     mkdir my-app
