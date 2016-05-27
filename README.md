@@ -1,12 +1,19 @@
 # Vaadin Charts Template
 
-This template is a starting point for using Vaain Charts. It creates a Web application with column chart.
+This template is a starting point for using Vaain Charts. It creates a Web application with a simple column chart.
 
-This template, can be used both with `polymer-cli` and `yeoman`.
+This template, is used used with `polymer-cli`.
 
 ### Setup
 
 ##### Prerequisites
+Install Git.
+
+Install the current LTS version (4.x) of Node.js or newer.
+
+Install the latest version of Bower.
+
+    npm install -g bower
 
 Install [polymer-cli](https://github.com/Polymer/polymer-cli):
 
