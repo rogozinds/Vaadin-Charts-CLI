@@ -1,0 +1,21 @@
+{
+  "name": "generator-polymer-init-vaadin-charts-template",
+  "version": "0.0.0",
+  "description": "Some",
+  "homepage": "",
+  "author": {
+    "name": "Dmitrii Rogozin",
+    "email": "dmitrii@vaadin.com",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.23.0"
+  },
+  "license": "Apache-2.0"
+}
